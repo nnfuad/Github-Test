@@ -1,0 +1,8 @@
+// git status                                       =>shows the current stats of the folder
+
+1.  git add .                                       =>(stages all file)
+//  git add <filename>                              =>(stages only the specific file)
+
+2. git commit -m "<your message for the commit>"    =>commits all the tracked files with a message
+
+3. git push -u origin main                             =>uploads the file to "main" branch of your github rep
