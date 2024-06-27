@@ -24,3 +24,17 @@ git checkout <branch_name>                              =>to switch to a existin
             ------------------------------------------------------------------------
 
 git merge <Merging_desired_branch_name>                 =>go to the branch you want to merge, put the name of the desired meging branch name
+
+
+            --------------------------------------------
+                    GIT          BRANCH 
+            --------------------------------------------
+
+git branch                                              =>to show current branch
+git checkout -b <new_branch_name>                       =>to create a new branch and switch to it
+git checkout <branch_name>                              =>to switch to a existing branch
+
+              --------------------------------------------------------------------
+                //if you add commit and push youll see youve pushed the files to 
+                a the new branch not in the main branch
+            ------------------------------------------------------------------------
