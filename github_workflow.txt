@@ -1,3 +1,4 @@
+added line
 // git status                                           =>shows the current stats of the folder
 
 1.  git add .                                           =>(stages all file)
