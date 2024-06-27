@@ -1,0 +1,34 @@
+on bash terminal:
+commands:                                                       meaning:
+_________                                                       _________
+
+git config --global user.email "<user email of vs code>"        \\assigns email
+git config --global user.name "<username used in github>"       \\assigns username
+git config --global user.email                                  \\to see assigned email
+git config --global user.name                                   \\to see assigned username
+git init                                                        \\to initialize .git repo in current folder(if not showing confirm by "ls -a" it shows all the hidden files too)
+                                                                //.git file contains all the metadata of the current folder
+        _______________________________________
+        |    //Now do basics:                 |
+        |    1. create a file within          |
+        |    2.save it.                       |
+        |    3.git add .                      |
+        |   4.git commit -m "<message>"       |
+        |    //5.check git status if you want |
+        ______________________________________
+
+git remote add origin <the https link of the repo from github>   \\to add the repository location for uploading
+git remote -v                                                     \\to check the repository address location
+git push --set-upstream origin <branch name>                       \\to connect to your github (signin window pops up)
+                                                                    //most of the cases branch name will  be main, but check if not :(
+
+        _______________________________________
+        |    //Now do basics:                 |
+        |    1. create a file within          |
+        |    2.save it.                       |
+        |    3.git add .                      |
+        |   4.git commit -m "<message>"       |
+        |    //5.check git status if you want |
+        |                                     |
+        |   6. git push -u origin main        |
+        |_____________________________________
